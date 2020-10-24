@@ -168,12 +168,36 @@ p {
 
 @media (max-width: 1028px) {
 
+
   #title {
     text-align: center;
   }
-
   .title-image {
     position: static;
     transform: rotate(0);
   }
+}
+
+/* Inputs */
+
+input[type=text] {
+
+}
+
+label {
+  text-align: left;
+}
+
+
+/* Forms */
+
+form {
+  /*text-align: right;*/
+}
+
+
+
+
+.hidden {
+  display: none;
 }

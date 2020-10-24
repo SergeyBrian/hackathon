@@ -1,4 +1,6 @@
 <%- include('partials/header'); -%>
+<%- include('partials/seller-registration'); -%>
+<%- include('partials/client-registration'); -%>
 
 <section class="colored-section" id="title">
 
@@ -31,15 +33,16 @@
       </div>
     </nav>
 
-
     <!-- Title -->
 
     <div class="row">
 
       <div class="col-lg-6">
         <h1 class="big-heading">We will pass the final exam.</h1>
-        <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>Dungeon master</button>
-        <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Boy next door</button>
+        <button id="modalActivate" type="button" onclick="isSeller=0" class="btn btn-dark btn-lg download-button btn-danger"
+                data-toggle="modal" data-target="#modalRegistrationClient">Я покупатель</button>
+        <button id="modalActivate" type="button" onclick="isSeller=1" class="btn btn-dark btn-lg download-button btn-danger"
+                data-toggle="modal" data-target="#modalRegistrationSeller">Я продавец</button>
       </div>
 
       <div class="col-lg-6">
@@ -52,6 +55,13 @@
 
 </section>
 
+
+<script>
+  $("button").on("click", () => {
+    console.log("Suck some dick");
+    $("#modalLabel").text(isSeller ? "Регистрация предпринимателя" : "Регистрация покупателя")// : "Регистрация предпринимателя");
+  });
+</script>
 
 <!-- Features -->
 
@@ -168,7 +178,7 @@
           <h3>Billi h</h3>
         </div>
         <div class="card-body">
-          <h2 class="price-text">$99 / mo</h2>
+          <h2 class="price-text">$300 / mo</h2>
           <p>Pirority Listing</p>
           <p>Unlimited Matches</p>
           <p>Unlimited Messages</p>
