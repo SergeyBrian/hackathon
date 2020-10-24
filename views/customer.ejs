@@ -1,0 +1,23 @@
+<script>
+    class Product {
+        constructor(id, name, x, y) {
+            this.id = id;
+            this.name = name;
+            this.y = y;
+            this.x = x;
+        }
+    }
+
+    let products = [];
+
+
+    for (let i = 0; i < 5; i ++)
+    {
+        products[i] = new Product(i, "Bakery #" + (i + 1), 60.003989 + 0.0001 * i, 30.355267 + 0.0001 * i);
+    }
+
+
+
+</script>
+
+<%-include('partials/map')-%>

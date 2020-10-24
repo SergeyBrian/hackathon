@@ -17,7 +17,15 @@ app.get("/", function (req, res) {
 
 app.get("/dev/Login", function (req, res) {
   res.send("uid: " + req.param('uid') + "<br>first name: " + req.param('first_name') + "<br>second name: " +
-      req.param('second_name') + "<br>photo url: " + req.param('photo'));
+      req.param('last_name') + "<br>photo url: " + req.param('photo'));
+});
+
+app.get("/customer", function (req,res) {
+  res.render("customer", {});
+});
+
+app.get("/map", function (req, res) {
+  res.render("map", {});
 });
 
 app.post("/registration", function (req, res){
