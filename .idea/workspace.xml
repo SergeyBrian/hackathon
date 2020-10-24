@@ -43,7 +43,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Valhalla" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
@@ -59,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603566201551</updated>
-      <workItem from="1603566202755" duration="9875000" />
+      <workItem from="1603566202755" duration="12085000" />
     </task>
     <servers />
   </component>
@@ -78,6 +78,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="2542" y="295" width="426" height="485" key="FileChooserDialogImpl" timestamp="1603579892743">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state x="2542" y="295" width="426" height="485" key="FileChooserDialogImpl/1920.0.1680.1050/0.27.1920.1053@1920.0.1680.1050" timestamp="1603579892743" />
     <state x="2248" y="173" key="SettingsEditor" timestamp="1603571646068">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
