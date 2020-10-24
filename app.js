@@ -15,8 +15,8 @@ app.get("/", function (req, res) {
   res.render("main", {});
 });
 
-app.get("/politics", function(req, res){
-  res.render("politics", {});
+app.post("/registration", function (req, res){
+  res.render("registration", {})
 });
 
 app.listen(process.env.PORT || 3000, function () {

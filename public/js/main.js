@@ -1,3 +1,0 @@
-
-$(".changing").addClass("changing-color");
-

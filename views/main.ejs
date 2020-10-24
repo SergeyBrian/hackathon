@@ -1,22 +1,52 @@
 <%- include('partials/header'); -%>
+<%- include('partials/seller-registration'); -%>
+<%- include('partials/client-registration'); -%>
 
-
-
-<section class="white-section changing" id="title">
+<section class="colored-section" id="title">
 
   <div class="container-fluid">
+
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+
+      <a class="navbar-brand" href="">Valhalla</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cta">Download gachimuchi</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
     <!-- Title -->
 
     <div class="row">
 
       <div class="col-lg-6">
-        <h1 class="big-heading">Твоя булочная следующей дверью.</h1>
-        <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>Dungeon master</button>
-        <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Boy next door</button>
+        <h1 class="big-heading">We will pass the final exam.</h1>
+        <button id="modalActivate" type="button" onclick="isSeller=0" class="btn btn-dark btn-lg download-button btn-danger"
+                data-toggle="modal" data-target="#modalRegistrationClient">Я покупатель</button>
+        <button id="modalActivate" type="button" onclick="isSeller=1" class="btn btn-dark btn-lg download-button btn-danger"
+                data-toggle="modal" data-target="#modalRegistrationSeller">Я продавец</button>
       </div>
 
       <div class="col-lg-6">
-        <img class="title-image" src="/images/iphone6.png" alt="iphone-mockup">
+        <img class="title-image" src="/images/master.jpg" alt="iphone-mockup">
       </div>
 
     </div>
@@ -25,6 +55,13 @@
 
 </section>
 
+
+<script>
+  $("button").on("click", () => {
+    console.log("Suck some dick");
+    $("#modalLabel").text(isSeller ? "Регистрация предпринимателя" : "Регистрация покупателя")// : "Регистрация предпринимателя");
+  });
+</script>
 
 <!-- Features -->
 
@@ -75,10 +112,10 @@
       </div>
     </div>
     <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
+  <span class="carousel-control-prev-icon"></span>
     </a>
     <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon"></span>
+  <span class="carousel-control-next-icon"></span>
     </a>
   </div>
 
