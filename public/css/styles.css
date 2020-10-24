@@ -1,0 +1,273 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+.header{
+  padding: 2% 15%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+
+  padding: 7% 15%;
+  
+}
+
+.changing-color{
+  -webkit-animation: color 14s ease-in-out infinite;
+
+  -moz-animation: color 14s ease-in-out infinite;
+
+  -o-animation: color 14s ease-in-out infinite;
+
+  animation: color 14s ease-in-out infinite;
+}
+
+
+@keyframes color {
+  
+  0% {
+
+    background-color: #9370DB;
+
+  }
+
+ 50%{
+
+  background-color:#BC8F8F;
+
+}
+100%{
+  background-color: #9370DB;
+
+}
+}
+
+      
+  
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+  padding-top: 3rem;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 7%;
+  color: #ffffff;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  background-color: #343a40;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 1);
+}
+
+.navbar-nav {
+  /* background-color: #343a40; */
+  border-radius: 10px;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.nav-link {
+  font-size: 1.6rem;
+  font-family: "Montserrat-Light";
+  border: solid;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+/* Title Section */
+
+#title {
+  /* background-color: #9370DB; */
+  background-color:#ffffff;
+  /* background-color: #BC8F8F; */
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 0% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* Over Pages */
+
+.politics {
+  font-size: 1.3rem;
+  overflow: scroll;
+  /* width: 50%; */
+  height: 30rem;
+  padding: 2rem ;
+  background-color:  #ef8172;
+  border-radius: 10px;
+}
+
+#pol-scroll::-webkit-scrollbar-track {
+  background-color: transparent;
+  opacity: 0.1;
+}
+
+#pol-scroll::-webkit-scrollbar {
+  width: 8px;
+  background-color: transparent;
+}
+
+#pol-scroll::-webkit-scrollbar-thumb {
+
+  background-color: #ffffff;
+  border-radius: 2rem;
+  opacity: 0.5;
+}
+
+
+#pol-scroll::-webkit-scrollbar-corner {
+  display: hidden;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
