@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2d5a1a1-5809-4e9b-8de3-0d8cae8e2afa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/customer.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/partials/map.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/map.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/map.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +40,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -58,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603566201551</updated>
-      <workItem from="1603566202755" duration="4046000" />
+      <workItem from="1603566202755" duration="8411000" />
     </task>
     <servers />
   </component>
@@ -75,5 +76,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2248" y="173" key="SettingsEditor" timestamp="1603571646068">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state x="2248" y="173" key="SettingsEditor/1920.0.1680.1050/0.27.1920.1053@1920.0.1680.1050" timestamp="1603571646068" />
+    <state x="2423" y="251" width="672" height="678" key="search.everywhere.popup" timestamp="1603571724802">
+      <screen x="1920" y="0" width="1680" height="1050" />
+    </state>
+    <state x="2423" y="251" width="672" height="678" key="search.everywhere.popup/1920.0.1680.1050/0.27.1920.1053@1920.0.1680.1050" timestamp="1603571724802" />
   </component>
 </project>
