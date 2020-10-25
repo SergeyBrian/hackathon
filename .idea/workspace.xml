@@ -13,16 +13,16 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:heroku" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2d5a1a1-5809-4e9b-8de3-0d8cae8e2afa" name="Default Changelist" comment="">
+    <list default="true" id="a2d5a1a1-5809-4e9b-8de3-0d8cae8e2afa" name="Default Changelist" comment="Check if point is near user">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/customer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/customer.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/partials/map.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/map.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/registration-modal.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Valhalla" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -62,8 +62,16 @@
       <option name="presentableId" value="Default" />
       <updated>1603566201551</updated>
       <workItem from="1603566202755" duration="12085000" />
-      <workItem from="1603613681791" duration="2237000" />
+      <workItem from="1603613681791" duration="3507000" />
     </task>
+    <task id="LOCAL-00001" summary="Check if point is near user">
+      <created>1603616049668</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603616049670</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,15 +89,24 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Check if point is near user" />
+    <option name="LAST_COMMIT_MESSAGE" value="Check if point is near user" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="2542" y="295" width="426" height="485" key="FileChooserDialogImpl" timestamp="1603579892743">
-      <screen x="1920" y="0" width="1680" height="1050" />
+    <state x="506" y="235" width="376" height="343" key="FileChooserDialogImpl" timestamp="1603617190847">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
+    <state x="506" y="235" width="376" height="343" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1603617190847" />
     <state x="2542" y="295" width="426" height="485" key="FileChooserDialogImpl/1920.0.1680.1050/0.27.1920.1053@1920.0.1680.1050" timestamp="1603579892743" />
     <state x="2248" y="173" key="SettingsEditor" timestamp="1603571646068">
       <screen x="1920" y="0" width="1680" height="1050" />
     </state>
     <state x="2248" y="173" key="SettingsEditor/1920.0.1680.1050/0.27.1920.1053@1920.0.1680.1050" timestamp="1603571646068" />
+    <state x="277" y="115" width="802" height="571" key="Vcs.Push.Dialog.v2" timestamp="1603616070074">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="277" y="115" width="802" height="571" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1603616070074" />
     <state x="409" y="204" width="672" height="479" key="search.everywhere.popup" timestamp="1603614057961">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
