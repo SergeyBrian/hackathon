@@ -56,14 +56,33 @@
                         }
                     }));
 
+                    myMap.geoObjects.add(new ymaps.GeoObject({
+                        geometry: {
+                            type: "Point", // тип геометрии - точка
+                            coordinates: [userCoordinates[0] + 0.005, userCoordinates[1]] // координаты точки
+                        }
+                    }));
+
+
                     myMap.setCenter(userCoordinates);
                     myMap.setZoom(4);
+
+
+                    // Проверка, входит ли предложение в нужный радиус
+                    function checkIfIsInRadius(x, y)
+                    {
+                        if (((userCoordinates[0] + 0.005 >= Math.abs(x))) &&
+                            ((userCoordinates[1] + 0.005 >= Math.abs(y))))
+                            return 1;
+                        return 0;
+                    }
+                    //Function test
+                    // console.log(checkIfIsInRadius(61.003989, 31.355267));
                 },
                 function(err) {
                     console.log('Ошибка: ' + err)
                 }
             );
-
 
     }
 </script>
